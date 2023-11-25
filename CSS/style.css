@@ -1,0 +1,17 @@
+.logo {
+  width: 200px;
+}
+
+.img-me {
+  width: 50%;
+  margin: 40px;
+  border-radius: 10%;
+}
+
+.img-me2 {
+  border-radius: 10%;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
