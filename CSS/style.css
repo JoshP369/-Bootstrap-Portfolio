@@ -1,25 +1,30 @@
+/* Alter logo size */
 .logo {
   width: 200px;
 }
-
+/* Alter photo size */
 .img-me {
   width: 50%;
   margin: 40px;
   border-radius: 10%;
 }
 
+/* Add boarder radius to image */
 .img-me2 {
   border-radius: 10%;
 }
 
+/* Add boarder radius to image */
 .img-2 {
   border-radius: 2%;
 }
 
+/* Add margin to h2 */
 h2 {
   margin-bottom: 20px;
 }
 
+/* Alter icon padding */
 .socialIcons i {
   padding: 10px;
 }
