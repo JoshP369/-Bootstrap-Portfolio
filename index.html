@@ -9,12 +9,16 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./CSS/style.css">
 
   <title>Bootstrap Portfolio</title>
 </head>
 
 <body>
+
 
   <!-- ................. Start Navbar Section ................. -->
   <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
@@ -24,7 +28,6 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navmenu">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
@@ -34,16 +37,14 @@
             <a href="#skills" class="nav-link">Skills Learnt</a>
           </li>
           <li class="nav-item">
-            <a href="#about" class="nav-link">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a href="#contact" class="nav-link">Contact Me</a>
+            <a href="#about" class="nav-link">About Me/Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
   <!-- ................. End Navbar Section ................. -->
+
 
 
   <!-- ................. Start Hero Section ................. -->
@@ -56,7 +57,7 @@
             Hello, I'm Josh Prestage, a seasoned freelancer with approximately 5 years of experience in developing
             no-code websites for clients.
           </p>
-          <button class="btn btn-primary btn-lg">Contact Me</button>
+          <a href="#about"><button class="btn btn-primary btn-lg">Contact Me</button></a>
         </div>
         <img class="img-fluid img-me" src="./Images/me.jpg" alt="">
       </div>
@@ -65,8 +66,9 @@
   <!-- ................. End Hero Section ................. -->
 
 
-  <!-- ................. Start Boxes Section ................. -->
-  <section id="" class="p-5">
+
+  <!-- ................. Start Projects Section ................. -->
+  <section id="projects" class="p-5">
     <div class="container">
       <h2 class="fs-1 text-center" ">My Projects</h2>
       <div class=" row text-center g-4">
@@ -74,16 +76,19 @@
           <div class="card bg-dark text-light">
             <div class="card-body text-center">
               <div class="h1 mb-3">
-                <i class="bi bi-laptop"></i>
+                <img src="./Images/webmaster.png" class="img-fluid img-2" alt="">
               </div>
               <h3 class="card-title mb-3">
                 Webmaster Studios
               </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit commodi repellat nam similique tempore
-                atque distinctio sint.
+                This serves as my personal website, functioning as a platform to promote my services. The site is
+                constructed on the WordPress CMS, employing Elementor and various plugins, and is hosted on Ionos'
+                Ultimate hosting package. Web Master Studios, located in Macclesfield, Cheshire, is a committed team of
+                creators and strategists specializing in web development and design.
               </p>
-              <button class="btn btn-primary">Read More</button>
+              <a href="https://webmasterstudios.co.uk">
+                <button class="btn btn-primary">Deploy Site</button></a>
             </div>
           </div>
         </div>
@@ -91,16 +96,19 @@
           <div class="card bg-dark text-light">
             <div class="card-body text-center">
               <div class="h1 mb-3">
-                <i class="bi bi-laptop"></i>
+                <img src="./Images/infinity.png" class="img-fluid img-2" alt="">
               </div>
               <h3 class="card-title mb-3">
                 Infinity J & C
               </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit commodi repellat nam similique tempore
-                atque distinctio sint.
+                This website was created for a client, following the hosting and development structure of my personal
+                site. The objective was to establish a contemporary and professional platform to showcase Infinity
+                Joinery & Construction. They are a prominent provider of joinery and construction services based in
+                Macclesfield, Cheshire, catering to clients across the UK.
               </p>
-              <button class="btn btn-primary">Read More</button>
+              <a href="https://infinityjandc.co.uk">
+                <button class="btn btn-primary">Deploy Site</button></a>
             </div>
           </div>
         </div>
@@ -108,22 +116,26 @@
           <div class="card bg-dark text-light">
             <div class="card-body text-center">
               <div class="h1 mb-3">
-                <i class="bi bi-laptop"></i>
+                <img src="./Images/voodoo.png" class="img-fluid img-2" alt="">
               </div>
               <h3 class="card-title mb-3">
                 Voodoo Recharge
               </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit commodi repellat nam similique tempore
-                atque distinctio sint.
+                This website was crafted for a new startup in Macclesfield. It adheres to the hosting and development
+                structure of my personal site. The objective was to establish a contemporary and professional platform
+                to highlight the services of Voodoo Recharge—a wellness hub and martial arts studio. Their offerings aim
+                to elevate physical recovery, promote mental rejuvenation, and enhance overall well-being.
               </p>
-              <button class="btn btn-primary">Read More</button>
+              <a href="https://voodoorecharge.co.uk">
+                <button class="btn btn-primary">Deploy Site</button></a>
             </div>
           </div>
         </div>
     </div>
   </section>
-  <!-- ................. End Boxes Section ................. -->
+  <!-- ................. End Projects Section ................. -->
+
 
 
   <!-- ................. Start Skills Section ................. -->
@@ -133,7 +145,7 @@
       <p>This course encompasses the essential hard and soft skills needed for a career in front-end web development.
         The curriculum is tailored to address current industry requirements, covering key technologies such as HTML5,
         CSS3, Javascript, jQuery, React.js, ES6, and Node.
-
+<br><br>
         Topics covered include an exploration of application programming interfaces (APIs), a deep dive into user
         experience design, and comprehensive instruction on building and deploying modern web applications. The course
         aims to provide a solid foundation in front-end development, offering a well-rounded understanding of the skills
@@ -151,15 +163,38 @@
       <!-- ................. End Skills Section ................. -->
 
 
-      <!-- ................. Start About Me Section ................. -->
-
+      <!-- ................. Start About Me/Contact Section ................. -->
       <section id="about" class="p-5">
         <div class="container">
           <div class="row align-items-center justify-content-between">
-            <h2 class="fs-1 text-center mb-4">About Me</h2>
+            <h2 class="fs-1 text-center mb-4">About Me/Contact</h2>
             <div class="col-md">
-
-              <img src="./Images/me.jpg" class="img-fluid p-3 img-me2" alt="">
+              <div class="row g-4">
+                <div class="col-md">
+                  <img src="./Images/me2.png" class="img-fluid p-3 img-me2" alt="">
+                  <ul class="list-group list-group-flush lead">
+                    <li class="list-group-item">
+                      <span class="fw-bold">Main Location:</span> <a
+                        href="https://www.google.com/maps?sca_esv=585092746&rlz=1C1VDKB_enGB1043GB1043&q=Macclesfield&biw=1441&bih=1262&dpr=1&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjPnYOCld2CAxWUVEEAHXT3AKMQ0pQJegQIBhAE">Macclesfield</a>
+                    </li>
+                    <li class="list-group-item">
+                      <span class="fw-bold">Email Address:</span> <a
+                        href="j.prestage@hotmail.com">j.prestage@hotmail.com</a>
+                    </li>
+                    <li class="list-group-item">
+                      <span class="fw-bold">Contact Number</span> <a href="tel:07904 125 440">07904 125 440</a>
+                    </li>
+                    <li class="list-group-item">
+                      <span class="fw-bold">LinkedIn:</span> <a
+                        href="www.linkedin.com/in/josh-prestage">www.linkedin.com/in/josh-prestage</a>
+                    </li>
+                    <li class="list-group-item">
+                      <span class="fw-bold">GitHub:</span> <a
+                        href="https://github.com/JoshP369">https://github.com/JoshP369</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
             <div class="col-lg">
               <p>
@@ -181,47 +216,38 @@
           </div>
         </div>
       </section>
-      <!-- ................. End About Me Section ................. -->
-
-
-      <!-- ................. Start Contact Me Section ................. -->
-      <section id="contact">
-        <div class="container">
-          <div class="row g-4">
-            <div class="col-md">
-              <h2 class="fs-1 text-center mb-4">Contact</h2>
-              <ul class="list-group list-group-flush lead">
-                <li class="list-group-item">
-                  <span class="fw-bold">Main Location:</span> <a
-                    href="https://www.google.com/maps?sca_esv=585092746&rlz=1C1VDKB_enGB1043GB1043&q=Macclesfield&biw=1441&bih=1262&dpr=1&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjPnYOCld2CAxWUVEEAHXT3AKMQ0pQJegQIBhAE">Macclesfield</a>
-                </li>
-                <li class="list-group-item">
-                  <span class="fw-bold">Email Address:</span> <a
-                    href="j.prestage@hotmail.com">j.prestage@hotmail.com</a>
-                </li>
-                <li class="list-group-item">
-                  <span class="fw-bold">Contact Number</span> <a href="tel:07904 125 440">07904 125 440</a>
-                </li>
-                <li class="list-group-item">
-                  <span class="fw-bold">LinkedIn:</span> <a
-                    href="www.linkedin.com/in/josh-prestage">www.linkedin.com/in/josh-prestage</a>
-                </li>
-                <li class="list-group-item">
-                  <span class="fw-bold">GitHub:</span> <a
-                    href="https://github.com/JoshP369">https://github.com/JoshP369</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ................. End Contact Me Section ................. -->
+      <!-- ................. End About Me/Contact Section ................. -->
 
 
 
       <!-- ................. Start Footer Section ................. -->
-      <footer>
+      <footer class="bg-dark text-light p-5 text-center text-sm-start ">
+        <div class="container text-center text-md-left">
+          <div class="row text-center text-md-left">
+            <div class="socialIcons">
+              <a href="https://www.linkedin.com/in/josh-prestage/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+              <a href="https://github.com/JoshP369"><i class="fa-brands fa-github fa-2x"></i></a>
+            </div>
+            <div>
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a href="#projects" class="nav-link">My Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#skills" class="nav-link">Skills Learnt</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#about" class="nav-link shadow-hover">About Me/Contact</a>
+                </li>
+            </div>
+            <a href="tel:07904125440"><button type="button" class="btn btn-primary shadow-hover p-2  m-2">Call
+                Me</button></a>
+            <div>
+              <p>Copyright &copy;2023: Designed by Josh Prestage</p>
+            </div>
+          </div>
+        </div>
+
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
           integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
           crossorigin="anonymous"></script>

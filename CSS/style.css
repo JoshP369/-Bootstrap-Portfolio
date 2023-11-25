@@ -12,6 +12,14 @@
   border-radius: 10%;
 }
 
+.img-2 {
+  border-radius: 2%;
+}
+
 h2 {
   margin-bottom: 20px;
+}
+
+.socialIcons i {
+  padding: 10px;
 }
