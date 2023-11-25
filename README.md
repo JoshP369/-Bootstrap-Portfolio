@@ -88,4 +88,4 @@ The portfolio should meet the following criteria:
 
 ## Webpage Link
 
-- A live version of the portfolio can be accessed at [GitHub Pages](#your-github-pages-link).
+- A live version of the portfolio can be accessed at https://joshp369.github.io/Bootstrap-Portfolio
